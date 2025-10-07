@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "wchen后端": "https://subapi.6866686.xyz",
+          "wchen后端": "https://proxy.wchenhong.cn:666",
           "cm后端": "https://subapi.cmliussss.hidns.vip",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
@@ -788,7 +788,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://subapi.6866686.xyz" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://proxy.wchenhong.cn:666" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
         excludeRemarks: "",
@@ -1312,6 +1312,7 @@ export default {
   }
 };
 </script>
+
 
 
 
